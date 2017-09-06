@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+
+<title>Vue Learnings</title>
+
+<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="favicon.ico">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+ 
+
+  <style>
+        body{
+            /*background-color:#eee;*/
+            z-index:0;
+        }
+
+        /*#body{
+             min-height: 980px;
+             min-width: 100%;
+        }*/
+        .fade-enter-active, .fade-leave-active {
+            transition: opacity .5s;
+        }
+
+        .fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+            opacity: 0;
+        }
+
+        .row{
+            margin-bottom:50px;
+        }
+
+     
+        .component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .3s ease;
+}
+.component-fade-enter, .component-fade-leave-to
+/* .component-fade-leave-active for <2.1.8 */ {
+  opacity: 0;
+}
+
+        html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 81px;
+  
+}
+
+.jumbotron{
+    padding: 2rem 2rem;
+}
+
+    </style>
+</head>
+<body>
+    <div id="app">
+    </div>
+    <script src="/dist/vueStarter_dev.js"></script>
+</body>
+</html>
