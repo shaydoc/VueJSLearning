@@ -1,5 +1,5 @@
 ## Simpe VueJS Demo
-https://shaydoc.github.io/VueStarter
+https://shaydoc.github.io/VueJSLearning
 
 ## Intro
 This app is a development environment for building web applications in VueJs.
